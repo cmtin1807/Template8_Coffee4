@@ -1,0 +1,387 @@
+
+/*============ Very large Device ===========*/
+@media (min-width:1441px) and (max-width:1900px){
+    .inner_main_nav_area >ul >li >a {
+        margin: 30px 5px 30px;
+    }
+    .main_service {
+        padding: 6px;
+    }
+    .inner_slider_content h2 {
+        font-size: 58px;
+    }
+    .inner_team_content {
+        padding: 20px 2px 20px;
+    }
+    .donate_btn_header a {
+        padding: 16px 11px;
+    }
+}
+/*============ Desktop Device ===========*/
+@media (min-width:1366px) and (max-width:1440px){
+    .inner_main_nav_area >ul >li >a {
+        margin: 30px 6px 30px;
+    }
+    .donate_btn_header a {
+        padding: 16px 2px;
+    }
+    .inner_slider_content h2 {
+        width: 100%;
+    }
+    .slider_ttin {
+        left: 32%;
+        top: 62%;
+    }
+    .witr_youtube_video{
+        height: 100%;
+    }
+}
+/*============ Laptop Device ===========*/
+@media (min-width:1024px) and (max-width:1365px){
+    h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .main_menu_area {
+        padding: 0 10px;
+    }
+     /* slider area css */
+
+    .inner_slider_content p {
+        width: 100%;
+    }
+     .inner_slider_area{
+        height: 700px;
+        padding: 100px;
+    }
+    .inner_slider_content h2{
+        font-size: 40px;
+        width: 100%;
+    }
+    .inner_main_nav_area {
+        margin-left: 0;
+    }
+    .inner_main_nav_area >ul >li >a {
+        font-size: 13px;
+        text-transform: capitalize;
+        margin: 30px 5px 30px;
+    }
+    .donate_btn_header a {
+        margin-left: 10px;
+        padding: 16px 12px;
+    }
+    .slider_ttin {
+        left: 34%;
+        top: 57%;
+    }
+    .inner_counter_area {
+        padding: 0;
+    }
+    .service_area .slick-prev, .service_area .slick-next {
+        right: -55px;
+    }
+    .inner_team_content {
+        padding: 20px 8px 20px;
+    }
+    .copy_right:before {
+        width: 91%;
+    }
+    .ycalender_inner th {
+        padding: 10px 11px;
+        font-size: 14px;
+    }
+    .ycalender_inner td {
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+    .witr_youtube_video{
+        height: 100%;
+    }
+}
+/*============= Tablet Large device ===============*/
+@media (min-width:992px) and (max-width:1023px){
+    h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .main_menu_area {
+        padding: 0 10px;
+    }
+     /* slider area css */
+
+    .inner_slider_content p {
+        width: 100%;
+    }
+     .inner_slider_area{
+        height: 700px;
+        padding: 100px;
+    }
+    .inner_slider_content h2{
+        font-size: 40px;
+        width: 100%;
+    }
+    .inner_main_nav_area {
+        margin-left: 0;
+    }
+    .inner_main_nav_area >ul >li >a {
+        font-size: 13px;
+        text-transform: capitalize;
+        margin: 30px 5px 30px;
+    }
+    .donate_btn_header a {
+        margin-left: 10px;
+        padding: 16px 12px;
+    }
+    .slider_ttin {
+        left: 34%;
+        top: 57%;
+    }
+    .service_area .slick-prev, .service_area .slick-next {
+        right: -55px;
+    }
+    .inner_team_content {
+        padding: 20px 8px 20px;
+    }
+    .copy_right:before {
+        width: 91%;
+    }
+    .ycalender_inner th {
+        padding: 10px 11px;
+        font-size: 14px;
+    }
+    .ycalender_inner td {
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+    .witr_youtube_video{
+        height: 100%;
+    }
+}
+/*============= Tablet device ===============*/
+@media (min-width:768px) and (max-width:991px){
+    h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .mobile_logo_area {
+        display: block !important;
+        padding: 20px 0 20px;
+    }
+     /* main nav area css */
+     .main_menu_area{
+        display: none;
+    }
+     /* slider area css */
+    .inner_slider_content p {
+        width: 100%;
+    }
+    .inner_contact_content h2 {
+        font-size: 35px;
+    }
+     .inner_slider_area{
+        height: 500px;
+        margin: 0 50px 0;
+        padding: 30px;
+    }
+    .inner_slider_content h2{
+        font-size: 40px;
+        width: 100%;
+    }
+    .auto_width {
+        width: 100%;
+    }
+    .slider_ttin {
+        left: 35%;
+        top: 57%;
+    }
+    .section_title h2 {
+        font-size: 46px;
+        margin-top: 0;
+    }
+    .single_offer {
+        padding: 150px 0 136px 10px;
+    }
+    .tab-menu ul li a {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+    .inner_tab_list_text {
+        margin-top: 0;
+    }
+    .tab_list_main {
+        padding: 20px 0 75px;
+    }
+    .main_feature {
+        padding: 20px 29px 10px 20px;
+    }
+    .main_service {
+        padding: 40px 6px 30px 5px;
+    }
+    .abou_right_content h2 {
+        font-size: 32px;
+    }
+    .about_btn a {
+        padding: 18px 30px;
+    }
+    .donate_btn_header a {
+        padding: 16px 16px;
+    }
+    .section_title h2 {
+        font-size: 39px;
+    }
+    .client_counter h3, .client_counter span {
+        font-size: 92px;
+    }
+    .client_counter h2 {
+        font-size: 16px;
+        padding: 0;
+    }
+    .footer_widget_middle {
+        margin: 10px 0 25px;
+    }
+    .inner_testimonial_content p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .inner_testimonial_area {
+        gap: 20px;
+    }
+    .copy_right:before {
+        width: 100%;
+    }
+    .footer_area {
+        padding: 55px 0;
+    }
+    .ycalender_inner th {
+        padding: 10px 14px;
+    }
+    .witr_youtube_video{
+        height: 100%;
+    }
+}
+/*============= mobile large device ===============*/
+@media (max-width:767px){
+    h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .header_top {
+        padding: 12px 0;
+    }
+    .mobile_logo_area {
+        display: block !important;
+        padding: 20px 0 20px;
+    }
+     /* main nav area css */
+     .main_menu_area{
+        display: none;
+    }
+    .inner_breadcum_area h1 {
+        font-size: 30px;
+    }
+    .inner_breadcum_area {
+        padding: 100px 0;
+    }
+     /* slider area css */
+     .inner_slider_content h2 {
+        font-size: 38px;
+        width: 100%;
+    }
+    .inner_slider_content {
+        margin: 0 0;
+        text-align: center;
+        width: 100%;
+    }
+    .inner_slider_area {
+        height: 600px;
+        margin: 0;
+        padding: 0;
+    }
+    .slider_ttin {
+        top: 82%;
+        left: 11%;
+    }
+    .appart_title h2 {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .abou_right_content h2 {
+        font-size: 30px;
+    }
+    .main_about_sign {
+        margin-bottom: 20px;
+    }
+    .section_title h2 {
+        font-size: 35px;
+    }
+    .auto_width {
+        width: 100%;
+    }
+    .shop_title h2 {
+        font-size: 35px;
+    }
+    .shop_btn a {
+        padding: 18px 28px;
+    }
+    .title_aline, .seresto_footer_area {
+        text-align: center;
+    }
+    .team_btn {
+        float: none;
+    }
+    .client_counter h3, .client_counter span {
+        font-size: 63px;
+        margin-top: 20px;
+    }
+    .client_counter {
+        display: block;
+        padding: 0;
+    }
+    .inner_testimonial_area {
+        display: block;
+        padding: 14px;
+    }
+    .inner_testimonial_content p {
+        font-size: 17px;
+    }
+    .seresto_footer_nav ul {
+        text-align: center;
+    }
+    .footer_widget_middle {
+        margin: 15px 0 25px;
+    }
+    #scrollUp {
+        bottom: 87px;
+    }
+    .single_about_img img{
+        width: 100%;
+    }
+    .witr_youtube_video{
+        height: 100%;
+    }
+    .ycalender_inner {
+        padding: 20px 0;
+    }
+    .ycalender_inner th {
+        padding: 10px 13px;
+    }
+    .inner_subscribe_form_area button {
+        width: auto;
+        position: inherit;
+    }
+    .txbdsvflex {
+        flex-direction: row; /* Xếp theo hàng ngang */
+        align-items: center; /* Căn giữa icon và nội dung */
+        text-align: left; /* Canh trái nội dung */
+    }   
+    .txbdcon {
+        margin-top: 25px; /* Đẩy tiêu đề và nội dung xuống thêm 5px */
+
+        flex: 1; /* Cho phép phần nội dung chiếm hết phần còn lại */
+    }
+    .contact_iconalltf {
+        margin-right: 15px; /* Tạo khoảng cách giữa icon và nội dung */
+        flex-shrink: 0; /* Giữ icon không bị thu nhỏ */
+    }
+
+}
