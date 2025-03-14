@@ -295,7 +295,7 @@ h2 span.highlight{
     color: var(--paracolor);
 }
 .inner_main_nav_area ul li {
-    margin: 0 20px; /* Tăng khoảng cách giữa các mục menu */
+    margin: 0 5px; /* Tăng khoảng cách giữa các mục menu */
 }
 .inner_main_nav_area ul li a.menu_nav_active{
     color: var(--bgcolor) !important;
