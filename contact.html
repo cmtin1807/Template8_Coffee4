@@ -226,63 +226,53 @@
      </div>
     <!-- contact box area end -->
 
-<!--    &lt;!&ndash; contact area start &ndash;&gt;-->
-<!--    <div class="contact_area wow animate__animated  animate__backInDown " data-wow-delay=".5s">-->
-<!--        <div class="container">-->
-<!--            <div class="row">-->
-<!--                &lt;!&ndash; inner contact area &ndash;&gt;-->
-<!--                <div class="col-lg-12 col-md-12 col-sm-12">-->
-<!--                    <div class="inner_contact_area text-left">-->
-<!--                        <div class="inner_contact_content">-->
-<!--                            <h2>Send us a message...</h2>-->
-<!--                        </div>-->
-<!--                        <div class="inner_contact_area">-->
-<!--                            <form action="mail.php" method="post" id="contact-form">-->
-<!--                                <div class="row">-->
-<!--                                    <div class="col-lg-6 col-md-12">-->
-<!--                                        <div class="inner_contact_form dt_ts_inp">-->
-<!--                                            <input type="text" name="name" placeholder="Name*">-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                    <div class="col-lg-6 col-md-12">-->
-<!--                                        <div class="inner_contact_form dt_ts_inp">-->
-<!--                                            <input type="email" name="email" placeholder="Email*">-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                    <div class="col-lg-6 col-md-12">-->
-<!--                                        <div class="inner_contact_form dt_ts_inp">-->
-<!--                                            <input type="number" name="number" placeholder="Phone*">-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                    <div class="col-lg-6 col-md-12">-->
-<!--                                        <div class="inner_contact_form dt_ts_inp">-->
-<!--                                            <input type="text" name="Subject" placeholder="Subject*">-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                    <div class="col-lg-12 col-md-12">-->
-<!--                                        <div class="inner_contact_form dt_ts_inp" >-->
-<!--                                            <textarea name="comment" placeholder="Text Message*" ></textarea>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                    <div class="col-lg-12 col-md-12">-->
-<!--                                        <div class="inner_contact_form dt_ts_inp">-->
-<!--                                            <button type="submit"> SEND NOW </button>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <div class="row">-->
-<!--                                    <div class="col-lg-12 text-center">-->
-<!--                                        <p class="form-messege"></p>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </form>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    &lt;!&ndash; contact area end &ndash;&gt;-->
+<!-- Khu vực liên hệ bắt đầu -->
+<div class="contact_area wow animate__animated animate__backInDown" data-wow-delay=".5s">
+    <div class="container">
+        <div class="row">
+            <!-- Khu vực liên hệ nội bộ -->
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="inner_contact_area text-left">
+                    <div class="inner_contact_content">
+                        <h2>Gửi tin nhắn cho chúng tôi...</h2>
+                    </div>
+                    <div class="inner_contact_area">
+                        <form id="contact-form">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="inner_contact_form dt_ts_inp">
+                                        <input type="text" id="name" name="name" placeholder="Họ và Tên*" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="inner_contact_form dt_ts_inp">
+                                        <input type="email" id="email" name="email" placeholder="Email*" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="inner_contact_form dt_ts_inp">
+                                        <input type="number" id="phone" name="phone" placeholder="Số điện thoại*" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="inner_contact_form dt_ts_inp">
+                                        <textarea id="message" name="message" placeholder="Nội dung tin nhắn*" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="inner_contact_form dt_ts_inp">
+                                        <button type="submit">GỬI NGAY</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
     <!-- google area start -->
     <div class="wiitter_google_map">
@@ -586,7 +576,22 @@
 </div>
 <!-- footer area end -->
     <!-- footer area end -->
-
+<div class="modal fade" id="notificationModal" tabindex="-1" aria-labelledby="notificationModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="notificationModalLabel">Thông báo</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
+            </div>
+            <div class="modal-body" id="modalMessage">
+                <!-- Nội dung thông báo sẽ được thay đổi bằng JavaScript -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đóng</button>
+            </div>
+        </div>
+    </div>
+</div>
  <!-- jquery js -->
  <script src="assets/js/jquery-3.7.1.min.js"></script>
  <!-- bootstrap js -->
@@ -618,5 +623,37 @@
   <script src="assets/js/mailchimp.js"></script>
  <!-- theme js -->
  <script src="assets/js/theme.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+    (function () {
+        emailjs.init("FLg1jX0Ayx7VjvgOT"); // Thay bằng Public Key của bạn
+    })();
+
+    document.getElementById("contact-form").addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        var params = {
+            name: document.getElementById("name").value,
+            email: document.getElementById("email").value,
+            phone: document.getElementById("phone").value,
+            message: document.getElementById("message").value
+        };
+
+        emailjs.send("service_gt4htsk", "template_k4kas2e", params)
+            .then(function (response) {
+                showModal("Gửi email thành công!"); // Hiển thị modal khi gửi thành công
+                document.getElementById("contact-form").reset(); // Xóa nội dung form
+            }, function (error) {
+                showModal("Lỗi! Vui lòng thử lại."); // Hiển thị modal khi lỗi
+            });
+    });
+
+    // Hàm hiển thị modal thông báo
+    function showModal(message) {
+        document.getElementById("modalMessage").innerText = message;
+        var myModal = new bootstrap.Modal(document.getElementById("notificationModal"));
+        myModal.show();
+    }
+</script>
 </body>
 </html>
